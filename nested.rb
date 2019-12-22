@@ -55,7 +55,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-	programmer_hash[:dennis_ritchie][:languages]
+	programmer_hash[:dennis_ritchie][:languages][0]
 end
 
 def adding_matz
@@ -88,7 +88,7 @@ def adding_matz
 end
 
 def changing_alan
-	programmer_hash = 
+	programmer_hash =
  		{
         :grace_hopper => {
           :known_for => "COBOL",
